@@ -1,0 +1,6 @@
+#label{
+    -fx-alignment: center;
+    -fx-font: 30pt "Arial";
+    -fx-effect: dropshadow(one-pass-box, greenyellow , 10, 1.0, 20, 20);
+
+}
