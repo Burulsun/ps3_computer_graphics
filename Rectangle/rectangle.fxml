@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Rectangle.RectangleController">
+   <children>
+      <Slider fx:id="radiusSlider" layoutX="136.0" layoutY="40.0" />
+      <Slider fx:id="spreadSlider" layoutX="136.0" layoutY="70.0" />
+      <Label layoutX="76.0" layoutY="40.0" text="radius" />
+      <Label layoutX="74.0" layoutY="70.0" text="spread" />
+      <Slider fx:id="ySlider" layoutX="136.0" layoutY="138.0" />
+      <Slider layoutX="136.0" layoutY="102.0" fx:id="xSlider" />
+      <Label layoutX="69.0" layoutY="102.0" text="offSetX" />
+      <Label layoutX="73.0" layoutY="138.0" text="offSetY" />
+      <Rectangle fx:id="rectangle" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="130.0" layoutX="257.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="130.0" />
+   </children>
+</AnchorPane>
